@@ -5,7 +5,8 @@ void setup() {
 
 void draw() {
   //This block runs every frame.
-  background(255); //paper-white background
+  color backgroundColor = 255; //Assigns backgroundColor with white
+  background(backgroundColor); //paper-white background
   line(50, 5, 95, 95);
   line(5, 95, 50, 5);
   line(95, 95, 5, 95);
