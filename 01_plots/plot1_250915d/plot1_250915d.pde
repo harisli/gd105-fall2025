@@ -18,4 +18,6 @@ line(672, 0, 672, 264); // Line from (672, 0) to (672, 264)
 line(672, 264, 816, 264); // Line from (672, 264) to (816, 264)
 line(612, 0, 612, 264); // Line from (612, 0) to (612, 264)
 line(672, 324, 816, 324); // Line from (672, 324) to (816, 324)
+line(540, 0, 540, 264); // Line from (540, 0) to (540, 264)
+line(672, 396, 816, 396); // Line from (672, 396) to (816, 396)
 //popMatrix(); // Resets to no transformation
