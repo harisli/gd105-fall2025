@@ -23,5 +23,7 @@ line(672, 396, 816, 396); // Line from (672, 396) to (816, 396)
 line(510, 0, 510, 264); // Line from (510, 0) to (510, 264)
 line(672, 426, 816, 426); // Line from (672, 0) to (816, 426)
 line(496, 0, 496, 264); // Line from (496, 0) to (496, 264)
-line(672, 440, 816, 440); // Line from (672, 440) to (816, 440);
+line(672, 440, 816, 440); // Line from (672, 440) to (816, 440)
+line(476, 0, 476, 264); // Line from (476, 0) to (476, 264)
+line(672, 460, 816, 460); // Line from (672, 460) to (816, 460)
 //popMatrix(); // Resets to no transformation
