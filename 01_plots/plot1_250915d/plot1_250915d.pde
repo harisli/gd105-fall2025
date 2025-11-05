@@ -1,10 +1,9 @@
 // Set up
-size(816, 1056); // 816 by 1056 px canvas
+size(816, 1056); // 1000 by 1056 px canvas
 noFill(); // Shapes have no fill
 rectMode(CENTER); // Sets origin to center rather than upper-left corner
 
-//pushMatrix(); // Saves the transformation for following code
-//rotate(TAU*0.125); // Rotates square by 45 degrees
+rotate(TAU*0.125); // Rotates square by 45 degrees
 square(width/2, height/2, 1056); // 1056 by 1056 px square in center of canvas
 square(width/2, height/2, 816); // 816 by 816 px square in center of canvas
 square(width/2, height/2, 528); // 528 by 528/ px square in center of canvas
@@ -14,16 +13,15 @@ square(width/2, height/2, 204); // 204 by 204 px square in center of canvas
 square(width/2, height/2, 176); // 176 by 176 px square in center of canvas
 square(width/2, height/2, 136); // 136 by 136 px square in center of canvas
 
-line(672, 0, 672, 264); // Line from (672, 0) to (672, 264)
-line(672, 264, 816, 264); // Line from (672, 264) to (816, 264)
-line(612, 0, 612, 264); // Line from (612, 0) to (612, 264)
-line(672, 324, 816, 324); // Line from (672, 324) to (816, 324)
-line(540, 0, 540, 264); // Line from (540, 0) to (540, 264)
-line(672, 396, 816, 396); // Line from (672, 396) to (816, 396)
-line(510, 0, 510, 264); // Line from (510, 0) to (510, 264)
-line(672, 426, 816, 426); // Line from (672, 0) to (816, 426)
-line(496, 0, 496, 264); // Line from (496, 0) to (496, 264)
-line(672, 440, 816, 440); // Line from (672, 440) to (816, 440)
-line(476, 0, 476, 264); // Line from (476, 0) to (476, 264)
-line(672, 460, 816, 460); // Line from (672, 460) to (816, 460)
-//popMatrix(); // Resets to no transformation
+line(672, -485, 672, 264); // Line from (672, -485) to (672, 264)
+line(672, 264, 1230, 264); // Line from (672, 264) to (1230, 264)
+line(612, -545, 612, 264); // Line from (612, -545) to (612, 264)
+line(672, 324, 1170, 324); // Line from (672, 324) to (1170, 324)
+line(540, -540, 540, 264); // Line from (540, -540) to (540, 264)
+line(672, 396, 1100, 396); // Line from (672, 396) to (1100, 396)
+line(510, -510, 510, 264); // Line from (510, -510) to (510, 264)
+line(672, 426, 1070, 426); // Line from (672, 426) to (1070, 426)
+line(496, -495, 496, 264); // Line from (496, -495) to (496, 264)
+line(672, 440, 1055, 440); // Line from (672, 440) to (1055, 440)
+line(476, -480, 476, 264); // Line from (476, -480) to (476, 264)
+line(672, 460, 1035, 460); // Line from (672, 460) to (1035, 460)
