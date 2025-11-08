@@ -1,4 +1,6 @@
 // Set up
+import processing.svg.*;
+beginRecord(SVG, "Plot2.svg");
 size(816, 1056); // 816 by 1056 px canvas
 noFill(); // Shapes have no fill or are transparent
 
@@ -49,3 +51,4 @@ circle(816, 1056, 528); // 528 by 528 px circle at (816, 1056)
 circle(816, 1056, 396); // 396 by 396 px circle at (816, 1056)
 circle(816, 1056, 264); // 264 by 264 px circle at (816, 1056)
 circle(816, 1056, 132); // 132 by 132 px circle at (816, 1056)
+endRecord();
