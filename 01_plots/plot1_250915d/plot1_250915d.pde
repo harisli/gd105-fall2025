@@ -18,7 +18,7 @@ square(width/2, height/2, 136); // 136 by 136 px square in center of canvas
 line(936, -220, 936, 0); // Line from (936, -220) to (936, 0)
 line(936, 0, 1155, 0); // Line from (936, 0) to (1155, 0)
 line(816, -340, 816, 0); // Line from (816, -340) to (816, 0)
-line(936, 120, 1080, 120); // Line from (936, 120) to (1080, 120)
+line(936, 120, 1275, 120); // Line from (936, 120) to (1275, 120)
 line(672, -485, 672, 0); // Line from (672, -485) to (672, 264)
 line(936, 264, 1230, 264); // Line from (1056, 264) to (1230, 264)
 line(612, -545, 612, 0); // Line from (612, -545) to (612, 264)
