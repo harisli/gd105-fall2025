@@ -1,4 +1,6 @@
 // Set up
+import processing.svg.*; 
+beginRecord(SVG, "Plot3.svg");
 size(816, 1056); // 816 by 1056 px canvas
 noFill(); // Shapes have no fill
 rectMode(CENTER); // Sets origin to center
@@ -17,3 +19,4 @@ line(144, 264, 672, 792); // Line from (144, 264) to (672, 792)
 line(672, 264, 144, 792); // Line from (672, 264) to (144, 792)
 line(36, 528, 780, 528); // Line from (36, 528) to (780, 528)
 line(408, 156, 408, 925); // Line from (408, 156) to (408, 925)
+endRecord();
