@@ -25,4 +25,6 @@ void draw() {
   image(mocha2, 0, 0);
   PImage mocha3 = loadImage("Mocha_03.png");
   image(mocha3, 0, 0);
+  PImage scenery1 = loadImage("Scenery_01.jpg");
+  image(scenery1, 0, 0);
 }
