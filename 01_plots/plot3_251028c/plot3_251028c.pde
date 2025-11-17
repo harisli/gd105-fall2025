@@ -18,5 +18,5 @@ popMatrix(); // Reset to no transformation
 line(144, 264, 672, 792); // Line from (144, 264) to (672, 792)
 line(672, 264, 144, 792); // Line from (672, 264) to (144, 792)
 line(36, 528, 780, 528); // Line from (36, 528) to (780, 528)
-line(408, 156, 408, 925); // Line from (408, 156) to (408, 925)
+line(408, 156, 407, 900); // Line from (408, 156) to (407, 900)
 endRecord();
