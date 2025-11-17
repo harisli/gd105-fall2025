@@ -11,5 +11,10 @@ void draw() {
   image(billie2, 0, 0);
   PImage billie3 = loadImage("Billie_03.png");
   image(billie3, 0, 0);
-  
+  PImage billie4 = loadImage("Billie_04.png");
+  image(billie4, 0, 0);
+  PImage marlow1 = loadImage("Marlow_01.png");
+  image(marlow1, 0, 0);
+  PImage marlow2 = loadImage("Marlow_02.png");
+  image(marlow2, 0, 0);
 }
