@@ -4,4 +4,7 @@ void setup() {
 }
 
 void draw() {
+  // Load images onto canvas
+  PImage billie1 = loadImage("Billie_01.png");
+  image(billie1, 0, 0);
 }
