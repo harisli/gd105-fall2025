@@ -17,4 +17,6 @@ void draw() {
   image(marlow1, 0, 0);
   PImage marlow2 = loadImage("Marlow_02.png");
   image(marlow2, 0, 0);
+  PImage marlow3 = loadImage("Marlow_03.png");
+  image(marlow3, 0, 0);
 }
