@@ -27,4 +27,33 @@ void draw() {
   image(mocha3, 0, 0);
   PImage scenery1 = loadImage("Scenery_01.jpg");
   image(scenery1, 0, 0);
+  PImage scenery2 = loadImage("Scenery_02.jpg");
+  image(scenery2, 0, 0);
+  PImage scenery3 = loadImage("Scenery_03.jpg");
+  image(scenery3, 0, 0);
+  PImage scenery4 = loadImage("Scenery_04.jpg");
+  image(scenery4, 0, 0);
+  PImage scenery5 = loadImage("Scenery_05.jpg");
+  image(scenery5, 0, 0);
+  PImage scenery6 = loadImage("Scenery_06.jpg");
+  image(scenery6, 0, 0);
+}
+
+PImage name;
+
+void collage(String filename, int x, int y, float value, float xCoord, float yCoord) {
+  pushMatrix(); // Applies transformations to image
+  
+  name = loadImage(filename);
+  
+  // Move image left & right + up & down
+  translate(x, y);
+  
+  // Rotate image # degrees
+  rotate(TAU * value); 
+  
+  // Draws image on canvas
+  image(name, xCoord, yCoord);
+ 
+  popMatrix(); //Reset to no transformation
 }
