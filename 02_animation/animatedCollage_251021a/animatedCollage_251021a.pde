@@ -21,27 +21,27 @@ void setup() {
   background(#ff00ff); // magenta background
   
   // Load image into PImage object
-  loadImage("Billie_01.png"); 
-  loadImage("Billie_02.png");
-  loadImage("Billie_03.png");
-  loadImage("Billie_04.png");
-  loadImage("Marlow_01.png");
-  loadImage("Marlow_02.png");
-  loadImage("Marlow_03.png");
-  loadImage("Mocha_01.png");
-  loadImage("Mocha_02.png");
-  loadImage("Mocha_03.png");
-  loadImage("Scenery_01.jpg");
-  loadImage("Scenery_02.jpg");
-  loadImage("Scenery_03.jpg");
-  loadImage("Scenery_04.jpg");
-  loadImage("Scenery_05.jpg");
-  loadImage("Scenery_06.jpg");
+  billie1 = loadImage("Billie_01.png"); 
+  billie2 = loadImage("Billie_02.png");
+  billie3 = loadImage("Billie_03.png");
+  billie4 = loadImage("Billie_04.png");
+  marlow1 = loadImage("Marlow_01.png");
+  marlow2 = loadImage("Marlow_02.png");
+  marlow3 = loadImage("Marlow_03.png");
+  mocha1 = loadImage("Mocha_01.png");
+  mocha2 = loadImage("Mocha_02.png");
+  mocha3 = loadImage("Mocha_03.png");
+  scenery1 = loadImage("Scenery_01.jpg");
+  scenery2 = loadImage("Scenery_02.jpg");
+  scenery3 = loadImage("Scenery_03.jpg");
+  scenery4 = loadImage("Scenery_04.jpg");
+  scenery5 = loadImage("Scenery_05.jpg");
+  scenery6 = loadImage("Scenery_06.jpg");
 }
 
 void draw() {
-  // Load images onto canvas
-  
+  scenery1.resize(width/2, height/2); // Resize scenery1 to 1/2 its original size
+  image(scenery1, 0, 0); // Display scenery1 at (0, 0)
 }
 
 //PImage name;
