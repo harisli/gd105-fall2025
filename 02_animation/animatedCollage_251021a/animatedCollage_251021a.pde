@@ -59,29 +59,11 @@ void draw() {
   //image(billie3, 0, 0); // Display billie3 at (0, 0)
   //image(billie4, 0, 0); // Display billie4 at (0, 0)
   //image(marlow1, 0, 0); // Display marlow1 at (0, 0)
-  translate(576, 0); // Move image 576 px right
-  image(marlow2, 0, 0); // Display marlow2 at (0, 0)
+  //translate(576, 0); // Move image 576 px right
+  //image(marlow2, 0, 0); // Display marlow2 at (0, 0)
   //image(marlow3, 0, 0); // Display marlow3 at (0, 0)
-  //image(mocha1, 0, 0); // Display mocha1 at (0, 0)
+  translate(-2, 24); // Move image 2 px left and 24 px right
+  image(mocha1, 0, 0); // Display mocha1 at (0, 0)
   //image(mocha2, 0, 0); // Display mocha2 at (0, 0)
   //image(mocha3, 0, 0); // Display mocha3 at (0, 0)
 }
-
-//PImage name;
-
-//void collage(String filename, int x, int y, float value, float xCoord, float yCoord) {
-//  pushMatrix(); // Applies transformations to image
-  
-//  name = loadImage(filename);
-  
-//  // Move image left & right + up & down
-//  translate(x, y);
-  
-//  // Rotate image # degrees
-//  rotate(TAU * value); 
-  
-//  // Draws image on canvas
-//  image(name, xCoord, yCoord);
- 
-//  popMatrix(); //Reset to no transformation
-//}
