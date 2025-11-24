@@ -54,8 +54,9 @@ void draw() {
   image(scenery6, 550, 212.5); // Display scenery6 at (550, 212.5)
   translate(0, 200); // Move image 200 px down
   image(billie1, 0, 0); // Display billie1 at (0, 0)
-  //image(billie2, 0, 0); // Display billie2 at (0, 0)
-  //image(billie3, 0, 0); // Display billie3 at (0, 0)
+  image(billie2, 0, 0); // Display billie2 at (0, 0)
+  translate(0, 25); // Move image 25 px down
+  image(billie3, 0, 0); // Display billie3 at (0, 0)
   //image(billie4, 0, 0); // Display billie4 at (0, 0)
   //image(marlow1, 0, 0); // Display marlow1 at (0, 0)
   //image(marlow2, 0, 0); // Display marlow2 at (0, 0)
