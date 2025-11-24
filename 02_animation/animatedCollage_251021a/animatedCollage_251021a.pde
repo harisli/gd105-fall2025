@@ -42,6 +42,8 @@ void setup() {
 void draw() {
   scenery1.resize(width/2, height/2); // Resize scenery1 to 1/2 its original size
   image(scenery1, 0, 0); // Display scenery1 at (0, 0)
+  scenery2.resize(width/2, height/2); // Resize scenery2 to 1/2 its original size
+  image(scenery2, 550, 0); // Display scenery2 at (550, 0)
 }
 
 //PImage name;
