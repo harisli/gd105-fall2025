@@ -46,6 +46,8 @@ void draw() {
   image(scenery2, 550, 0); // Display scenery2 at (550, 0)
   scenery3.resize(width/2, height/2); // Resize scenery3 to 1/2 its original size
   image(scenery3, 0, 425); // Display scenery3 at (0, 425)
+  scenery4.resize(width/2, height/2); // Resize scenery4 to 1/2 its original size
+  image(scenery4, 550, 425); // Display scenery4 at (550, 425)
 }
 
 //PImage name;
