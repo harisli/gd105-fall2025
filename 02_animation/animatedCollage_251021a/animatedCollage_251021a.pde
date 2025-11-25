@@ -1,20 +1,8 @@
 // Set aside memory for PImage object and assign a name to it
-PImage billie1; 
-PImage billie2; 
-PImage billie3; 
-PImage billie4; 
-PImage marlow1; 
-PImage marlow2; 
-PImage marlow3; 
-PImage mocha1; 
-PImage mocha2; 
-PImage mocha3; 
-PImage scenery1;
-PImage scenery2; 
-PImage scenery3; 
-PImage scenery4; 
-PImage scenery5; 
-PImage scenery6; 
+PImage billie1, billie2, billie3, billie4;
+PImage marlow1, marlow2, marlow3;
+PImage mocha1, mocha2, mocha3; 
+PImage scenery1, scenery2, scenery3, scenery4, scenery5, scenery6; 
 
 void setup() {
   size(1100, 850); // 1100 px by 850 px canvas size
@@ -54,28 +42,37 @@ void draw() {
   image(scenery6, 550, 212.5); // Display scenery6 at (550, 212.5)
   
   pushMatrix();
-  translate(0, 200); // Move image 200 px down
+  translate(0, 200); // Move image 200 px down 
   image(billie1, 0, 0); // Display billie1 at (0, 0)
   popMatrix();
+  
   image(billie2, 0, 0); // Display billie2 at (0, 0)
+  
   pushMatrix();
   translate(0, 25); // Move image 25 px down
   image(billie3, 0, 0); // Display billie3 at (0, 0)
   popMatrix();
+  
   image(billie4, 0, 0); // Display billie4 at (0, 0)
+  
   image(marlow1, 0, 0); // Display marlow1 at (0, 0)
+  
   pushMatrix();
   translate(576, 0); // Move image 576 px right
   image(marlow2, 0, 0); // Display marlow2 at (0, 0)
   popMatrix();
+  
   image(marlow3, 0, 0); // Display marlow3 at (0, 0)
+  
   pushMatrix();
   translate(-2, 24); // Move image 2 px left and 24 px right
   image(mocha1, 0, 0); // Display mocha1 at (0, 0)
   popMatrix();
+  
   pushMatrix();
   translate(0, 25); // Move image 25 px down
   image(mocha2, 0, 0); // Display mocha2 at (0, 0)
   popMatrix();
+  
   image(mocha3, 0, 0); // Display mocha3 at (0, 0)
 }
