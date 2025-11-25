@@ -41,13 +41,15 @@ void draw() {
   scenery6.resize(width/2, height/2); // Resize scenery6 to 1/2 its original size
   image(scenery6, 550, 212.5); // Display scenery6 at (550, 212.5)
   
-  pushMatrix();
-  translate(0, 200); // Move image 200 px down 
-  rotate(radians(sin(frameCount)*0.5)); // Sway image side to side
-  image(billie1, 0, 0); // Display billie1 at (0, 0)
-  popMatrix();
+  //pushMatrix();
+  //translate(0, 200); // Move image 200 px down 
+  //rotate(radians(sin(frameCount)*0.5)); // Sway image side to side
+  //image(billie1, 0, 0); // Display billie1 at (0, 0)
+  //popMatrix();
   
-  //image(billie2, 0, 0); // Display billie2 at (0, 0)
+  translate(sin(frameCount) + random(10), 0); // Move image <= 10 px left and right
+  rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
+  image(billie2, 0, 0); // Display billie2 at (0, 0)
   
   //pushMatrix();
   //translate(0, 25); // Move image 25 px down
