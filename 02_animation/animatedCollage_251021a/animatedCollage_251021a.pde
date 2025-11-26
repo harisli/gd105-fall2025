@@ -57,24 +57,22 @@ void draw() {
   image(billie2, 0, 425); // Display billie2 at (0, 425)
   resetMatrix();
   
-  //image(marlow1, 0, 0); // Display marlow1 at (0, 0)
+  image(marlow1, 0, 126); // Display marlow1 at (0, 126)
   
-  //pushMatrix();
-  //translate(576, 0); // Move image 576 px right
-  //image(marlow2, 0, 0); // Display marlow2 at (0, 0)
-  //popMatrix();
+  translate(576, 0); // Move image 576 px right
+  rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
+  image(marlow2, 0, 0); // Display marlow2 at (0, 0)
+  resetMatrix();
   
   //image(marlow3, 0, 0); // Display marlow3 at (0, 0)
-  
-  //pushMatrix();
+
   //translate(-2, 24); // Move image 2 px left and 24 px right
   //image(mocha1, 0, 0); // Display mocha1 at (0, 0)
-  //popMatrix();
-  
-  //pushMatrix();
+  //resetMatrix();
+
   //translate(0, 25); // Move image 25 px down
   //image(mocha2, 0, 0); // Display mocha2 at (0, 0)
-  //popMatrix();
+  //resetMatrix();
   
   //image(mocha3, 0, 0); // Display mocha3 at (0, 0)
 }
