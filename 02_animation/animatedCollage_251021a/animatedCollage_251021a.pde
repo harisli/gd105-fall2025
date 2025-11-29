@@ -71,7 +71,9 @@ void draw() {
   image(billie2, 550, 425); // Display billie2 at (550, 425)
   resetMatrix();
   
+  translate(0, sin(frameCount) + random(20)); // Move image <= 20 px up and down
   image(marlow1, 400, 126); // Display marlow1 at (400, 126)
+  resetMatrix();
   
   translate(576, 0); // Move image 576 px right
   rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
