@@ -63,17 +63,18 @@ void draw() {
   image(billie1, 0, 0); // Display billie1 at (0, 0)
   resetMatrix();
   
+  marlow3.resize(0, 400); // Resize image to 1/2 its original size
   image(marlow3, 0, 0); // Display marlow3 at (0, 0)
   
-  translate(sin(frameCount) + random(10), 0); // Move image <= 10 px left and right
-  rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
-  image(billie2, 0, 425); // Display billie2 at (0, 425)
-  resetMatrix();
+  //translate(sin(frameCount) + random(10), 0); // Move image <= 10 px left and right
+  //rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
+  //image(billie2, 0, 425); // Display billie2 at (0, 425)
+  //resetMatrix();
   
-  image(marlow1, 0, 126); // Display marlow1 at (0, 126)
+  //image(marlow1, 0, 126); // Display marlow1 at (0, 126)
   
-  translate(576, 0); // Move image 576 px right
-  rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
-  image(marlow2, 0, 0); // Display marlow2 at (0, 0)
-  resetMatrix();
+  //translate(576, 0); // Move image 576 px right
+  //rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
+  //image(marlow2, 0, 0); // Display marlow2 at (0, 0)
+  //resetMatrix();
 }
