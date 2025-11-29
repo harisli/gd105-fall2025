@@ -41,16 +41,29 @@ void draw() {
   scenery6.resize(width/2, height/2); // Resize scenery6 to 1/2 its original size
   image(scenery6, 550, 212.5); // Display scenery6 at (550, 212.5)
   
-  image(billie4, 0, 0); // Display billie4 at (0, 0)
-  
-  translate(0, 200); // Move image 200 px down
-  image(billie1, 0, 0); // Display billie1 at (0, 0)
+  translate(-2, 24); // Move image 2 px left and 24 px right
+  image(mocha1, 0, 0); // Display mocha1 at (0, 0)
   resetMatrix();
+  
+  translate(0, 25); // Move image 25 px down
+  image(mocha2, 0, 0); // Display mocha2 at (0, 0)
+  resetMatrix();
+  
+  image(mocha3, 0, 0); // Display mocha3 at (0, 0)
+
+  image(billie4, 0, 0); // Display billie4 at (0, 0)
   
   rotate(QUARTER_PI); // Rotate image 1/4 of PI
   translate(170, -200); // Move image 170 px right and 200 px down
   image(billie3, 0, 0); // Display billie3 at (0, 0)
   resetMatrix();
+  
+  translate(0, 200); // Move image 200 px down
+  rotate(radians(sin(frameCount)*0.5)); // Sway image side to side
+  image(billie1, 0, 0); // Display billie1 at (0, 0)
+  resetMatrix();
+  
+  image(marlow3, 0, 0); // Display marlow3 at (0, 0)
   
   translate(sin(frameCount) + random(10), 0); // Move image <= 10 px left and right
   rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
@@ -63,16 +76,4 @@ void draw() {
   rotate(radians(sin(frameCount)*0.5)); // Sway image image side to side
   image(marlow2, 0, 0); // Display marlow2 at (0, 0)
   resetMatrix();
-  
-  //image(marlow3, 0, 0); // Display marlow3 at (0, 0)
-
-  //translate(-2, 24); // Move image 2 px left and 24 px right
-  //image(mocha1, 0, 0); // Display mocha1 at (0, 0)
-  //resetMatrix();
-
-  //translate(0, 25); // Move image 25 px down
-  //image(mocha2, 0, 0); // Display mocha2 at (0, 0)
-  //resetMatrix();
-  
-  //image(mocha3, 0, 0); // Display mocha3 at (0, 0)
 }
