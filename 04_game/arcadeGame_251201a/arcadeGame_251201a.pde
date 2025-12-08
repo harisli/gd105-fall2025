@@ -2,6 +2,7 @@
 // Action button mapped to the spacebar
 // Coin intake slot mapped to the P key
 boolean wHeld, aHeld, sHeld, dHeld;
+boolean pHeld, spacebarHeld;
 
 void keyPressed() {
   if(key == 'w' || key == 'W') {
@@ -15,6 +16,12 @@ void keyPressed() {
   }
   if(key == 'd' || key == 'D') {
     dHeld = true;
+  }
+  if(key == 'p' || key == 'P') {
+    pHeld = true;
+  }
+  if(key == ' ') {
+    spacebarHeld = true;
   }
 }
   
@@ -30,6 +37,12 @@ void keyReleased() {
   }
   if(key == 'd' || key == 'D') {
     dHeld = false;
+  }
+  if(key == 'p' || key == 'P') {
+    pHeld = false;
+  }
+  if(key == ' ') {
+    spacebarHeld = false;
   }
 }
 
