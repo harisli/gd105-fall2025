@@ -47,9 +47,26 @@ void keyReleased() {
 }
 
 void setup() {
-  //size(800, 800);
+  size(800, 800);
+  noFill();
+  rectMode(CENTER);
 }
 
 void draw() {
-  //background(127.5); // grey
+  resetMatrix();
+  background(127.5); // grey
+  
+  //5 x 5 grid
+  for(int x = 80; x < width; x+=160) {
+    for(int y = 80; y < height; y+=160) {
+      square(x, y, 150);
+    }
+  }
+  
+  for(int x = 22; x < width; x+=160) {
+    for(int y = 95; y < height; y+=160) {
+      textSize(50);
+      text("Topic", x, y);
+    }
+  }
 }
